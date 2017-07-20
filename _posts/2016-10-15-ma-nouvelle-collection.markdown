@@ -1,6 +1,6 @@
 ---
 title: Ma nouvelle collection
-date: 2016-10-15 13:07:00 Z
+date: 2016-10-15 15:07:00 +02:00
 categories:
 - collection
 tags:
