@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<div class="row">
+      {% for post in site.store %}
+    <a class="col-sm-3 nav-link" href="{{ post.url }}">
+    <div class="card">
+      <img class="card-img-top" src="{{ post.image }}">
+      <div class="card-block">
+        <h4 class="card-title">
+           {{ post.title }}
+        </h4>
+      </div>
+    </div>
+  </a>
+    {% endfor %}
+</div>
+
+<!--
+
+<section id="glasses">
+  <h1>Verre</h1>
+  <div class="row">
+    {% for post in site.verres %}
+    <div >
+      <div class="card card-inverse">
+        <img class="card-img-top" src="{{ post.image }}"/>
+        <div class="card-img-overlay">
+          <h4 class="card-title">{{ post.title }}</h4>
+        </div>
+      </div>
+    </div> 
+    {% endfor %}
+  </div>
+</section>
+<section id="vision-disorder">
+  <h1>Trouble de la vue</h1>
+  <div class="row">
+    {% for post in site.troubles-de-la-vue %}
+      <div class="col-md-3">
+      <div class="card">
+        <img class="card-img-top" style="height: 10rem" src="{{ post.image }}">
+        <div class="card-block">
+          <h4 class="card-title">
+            <a class="nav-link" href="#">{{ post.title }}</a>
+          </h4>
+          <p>          
+          {{ post.content }}
+          </p>                  
+          <blockquote>
+          <p>
+            {{ post.excerpt }}
+          </p>
+        </blockquote>  
+        </div>
+      </div>
+    </div>  
+    {% endfor %}
+  </div>
+</section>
+
+-->

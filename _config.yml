@@ -1,0 +1,71 @@
+---
+title: MHVision
+timezone: Europe/Brussels
+collections:
+  posts:
+    title: Posts
+    output: true
+  store:
+    title: Store
+    output: true
+  troubles-de-la-vue:
+    title: Troubles de la vue
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  verres:
+    title: Verres
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+permalink: pretty
+address:
+  line1: rue de la gare, n°2
+  line2: 6831 noirefontaine (belgique)
+phone: "+32 (0)61 23 30 14"
+mobile: "+32 (0)497 27 98 05"
+fax: "+32 (0)61 23 30 14"
+email: info@mhvision.be
+openingHours:
+  timeRange:
+    classic:
+    - from: '09:00'
+      to: '12:15'
+    - from: '13:30'
+      to: '19:00'
+  days:
+    monday:
+      name: lundi
+      timeRange: classic
+    tuesday:
+      name: mardi
+      timeRange: classic
+    wednesday:
+      name: mercredi
+      timeRange: classic
+    thirsday:
+      name: jeudi
+      comment: Uniquement sur rendez-vous
+    friday:
+      name: vendredi
+      timeRange: classic
+    saturday:
+      name: samedi
+      timeRanges:
+      - from: '09:00'
+        to: '12:15'
+      - from: '13:00'
+        to: '15:00'
+    sunday:
+      name: dimanche

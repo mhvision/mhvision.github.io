@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}  
+
+  <body>
+    
+    <style>
+        div.ecwid-results-topPanel-sortByPanel 
+        div.ecwid-results-topPanel-controlsPanel 
+        div.ecwid-productBrowser-categoryPath
+        div.ecwid-productBrowser-auth-mini
+        div.ecwid-productBrowser-head { 
+           display:none !important; 
+        }
+    </style>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      
+        {{ content }}
+        
+        <script type="text/javascript" src="https://app.ecwid.com/script.js?11298265&data_platform=code&data_date=2017-04-15" charset="utf-8"></script>
+        <div>
+          <script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-11298265","defaultCategoryId={{page.category.id}}");</script> 
+        </div>
+      
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
