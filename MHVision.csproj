@@ -39,6 +39,8 @@
     <Content Include="feed.xml" />
     <Content Include="google605d57c65cae1af8.html" />
     <Content Include="index.html" />
+    <Content Include="troubles-de-la-vue.markdown" />
+    <Content Include="verres.markdown" />
     <Content Include="_collection\dilem.markdown" />
     <Content Include="_collection\eye-max.markdown" />
     <Content Include="_collection\nike.markdown" />
@@ -49,6 +51,7 @@
     <Content Include="_includes\header.html" />
     <Content Include="_layouts\collection.html" />
     <Content Include="_layouts\default.html" />
+    <Content Include="_layouts\doc-section.html" />
     <Content Include="_layouts\ecwid-category.html" />
     <Content Include="_layouts\glasses.html" />
     <Content Include="_layouts\page.html" />
