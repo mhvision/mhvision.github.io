@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1F14D737-068C-48E4-A125-A533A7558240}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MHVision</RootNamespace>
+    <AssemblyName>MHVision</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="CNAME" />
+    <Content Include="contact.markdown" />
+    <Content Include="favicon.ico" />
+    <Content Include="feed.xml" />
+    <Content Include="google605d57c65cae1af8.html" />
+    <Content Include="index.html" />
+    <Content Include="_collection\dilem.markdown" />
+    <Content Include="_collection\eye-max.markdown" />
+    <Content Include="_collection\nike.markdown" />
+    <Content Include="_config.yml" />
+    <Content Include="_dilem\dilem-1.markdown" />
+    <Content Include="_includes\footer.html" />
+    <Content Include="_includes\head.html" />
+    <Content Include="_includes\header.html" />
+    <Content Include="_layouts\collection.html" />
+    <Content Include="_layouts\default.html" />
+    <Content Include="_layouts\ecwid-category.html" />
+    <Content Include="_layouts\glasses.html" />
+    <Content Include="_layouts\page.html" />
+    <Content Include="_layouts\post.html" />
+    <Content Include="_layouts\test.html" />
+    <Content Include="_posts\2016-10-15-ma-nouvelle-collection.markdown" />
+    <Content Include="_promotion\anti-crise.markdown" />
+    <Content Include="_sass\_base.scss" />
+    <Content Include="_sass\_layout.scss" />
+    <Content Include="_sass\_syntax-highlighting.scss" />
+    <Content Include="_site\CNAME" />
+    <Content Include="_site\contact\index.html" />
+    <Content Include="_site\favicon.ico" />
+    <Content Include="_site\feed.xml" />
+    <Content Include="_site\google605d57c65cae1af8.html" />
+    <Content Include="_site\index.html" />
+    <Content Include="_site\MHVision.csproj" />
+    <Content Include="_site\MHVision.sln" />
+    <Content Include="_site\obj\Debug\MHVision.csprojResolveAssemblyReference.cache" />
+    <Content Include="_site\opening-hours\index.html" />
+    <Content Include="_site\posts\ma-nouvelle-collection\index.html" />
+    <Content Include="_site\store\accessoires\index.html" />
+    <Content Include="_site\store\boussoles\index.html" />
+    <Content Include="_site\store\jumelles\index.html" />
+    <Content Include="_site\store\loupes\index.html" />
+    <Content Include="_site\store\lunettes\index.html" />
+    <Content Include="_site\store\microscopes\index.html" />
+    <Content Include="_site\store\solaires\index.html" />
+    <Content Include="_site\store\stations-meteo\index.html" />
+    <Content Include="_site\troubles-de-la-vue\astigmatisme\index.html" />
+    <Content Include="_site\troubles-de-la-vue\hypermetropie\index.html" />
+    <Content Include="_site\troubles-de-la-vue\myopie\index.html" />
+    <Content Include="_site\troubles-de-la-vue\presbytie\index.html" />
+    <Content Include="_site\uploads\bous.PNG" />
+    <Content Include="_site\uploads\bous1.png" />
+    <Content Include="_site\uploads\dilem-1.JPG" />
+    <Content Include="_site\uploads\etui.jpg" />
+    <Content Include="_site\uploads\femme.PNG" />
+    <Content Include="_site\uploads\homme.PNG" />
+    <Content Include="_site\uploads\hun8.PNG" />
+    <Content Include="_site\uploads\hun81.png" />
+    <Content Include="_site\uploads\logo.png" />
+    <Content Include="_site\uploads\loupe.PNG" />
+    <Content Include="_site\uploads\lunettes-de-soleil_213728.jpg" />
+    <Content Include="_site\uploads\meteow.PNG" />
+    <Content Include="_site\uploads\meteow1.png" />
+    <Content Include="_site\uploads\mh vision.pdf" />
+    <Content Include="_site\uploads\mh-logo.png" />
+    <Content Include="_site\uploads\para.PNG" />
+    <Content Include="_site\uploads\sg-85ae80.PNG" />
+    <Content Include="_site\uploads\sg.PNG" />
+    <Content Include="_site\uploads\sg1.png" />
+    <Content Include="_site\uploads\sg2-23c824.png" />
+    <Content Include="_site\uploads\sg2-c31ebc.png" />
+    <Content Include="_site\uploads\sg2.png" />
+    <Content Include="_site\uploads\sg3.png" />
+    <Content Include="_site\uploads\sg4.png" />
+    <Content Include="_site\uploads\sg5.png" />
+    <Content Include="_site\uploads\sg6.png" />
+    <Content Include="_site\uploads\sg7.png" />
+    <Content Include="_site\uploads\sg8.png" />
+    <Content Include="_site\uploads\smm.PNG" />
+    <Content Include="_site\uploads\sp.PNG" />
+    <Content Include="_site\uploads\sp1.png" />
+    <Content Include="_site\uploads\verre-antireflet.jpg" />
+    <Content Include="_site\uploads\verres-transition.jpg" />
+    <Content Include="_site\uploads\watch.html" />
+    <Content Include="_site\verres\verre-antireflet\index.html" />
+    <Content Include="_site\verres\verre-de-transition\index.html" />
+    <Content Include="_site\verres\verres-progressifs-nikon\index.html" />
+    <Content Include="_site\verres\verres-progressifs-s-series-s4d\index.html" />
+    <Content Include="_site\verres\verres-progressifs-x-series\index.html" />
+    <Content Include="_store\accessoires.markdown" />
+    <Content Include="_store\boussoles.markdown" />
+    <Content Include="_store\jumelles.markdown" />
+    <Content Include="_store\loupes.markdown" />
+    <Content Include="_store\lunettes.markdown" />
+    <Content Include="_store\microscopes.markdown" />
+    <Content Include="_store\solaires.markdown" />
+    <Content Include="_store\stations-meteo.markdown" />
+    <Content Include="_troubles-de-la-vue\astigmatisme.markdown" />
+    <Content Include="_troubles-de-la-vue\hypermetropie.markdown" />
+    <Content Include="_troubles-de-la-vue\myopie.markdown" />
+    <Content Include="_troubles-de-la-vue\presbytie.markdown" />
+    <Content Include="_uploads\bous.PNG" />
+    <Content Include="_uploads\bous1.png" />
+    <Content Include="_uploads\dilem-1.JPG" />
+    <Content Include="_uploads\etui.jpg" />
+    <Content Include="_uploads\femme.PNG" />
+    <Content Include="_uploads\homme.PNG" />
+    <Content Include="_uploads\hun8.PNG" />
+    <Content Include="_uploads\hun81.png" />
+    <Content Include="_uploads\logo.png" />
+    <Content Include="_uploads\loupe.PNG" />
+    <Content Include="_uploads\lunettes-de-soleil_213728.jpg" />
+    <Content Include="_uploads\meteow.PNG" />
+    <Content Include="_uploads\meteow1.png" />
+    <Content Include="_uploads\mh vision.pdf" />
+    <Content Include="_uploads\mh-logo.png" />
+    <Content Include="_uploads\para.PNG" />
+    <Content Include="_uploads\sg-85ae80.PNG" />
+    <Content Include="_uploads\sg.PNG" />
+    <Content Include="_uploads\sg1.png" />
+    <Content Include="_uploads\sg2-23c824.png" />
+    <Content Include="_uploads\sg2-c31ebc.png" />
+    <Content Include="_uploads\sg2.png" />
+    <Content Include="_uploads\sg3.png" />
+    <Content Include="_uploads\sg4.png" />
+    <Content Include="_uploads\sg5.png" />
+    <Content Include="_uploads\sg6.png" />
+    <Content Include="_uploads\sg7.png" />
+    <Content Include="_uploads\sg8.png" />
+    <Content Include="_uploads\smm.PNG" />
+    <Content Include="_uploads\sp.PNG" />
+    <Content Include="_uploads\sp1.png" />
+    <Content Include="_uploads\verre-antireflet.jpg" />
+    <Content Include="_uploads\verres-transition.jpg" />
+    <Content Include="_uploads\watch.html" />
+    <Content Include="_verres\verre-antireflet.markdown" />
+    <Content Include="_verres\verre-de-transition.markdown" />
+    <Content Include="_verres\verres-progressifs-nikon.markdown" />
+    <Content Include="_verres\verres-progressifs-s-series-s4d.markdown" />
+    <Content Include="_verres\verres-progressifs-x-series.markdown" />
+    <Content Include="_verres\_site\verre-antireflet.html" />
+    <Content Include="_verres\_site\verre-de-transition.html" />
+    <Content Include="_verres\_site\verres-progressifs-nikon.html" />
+    <Content Include="_verres\_site\verres-progressifs-s-series-s4d.html" />
+    <Content Include="_verres\_site\verres-progressifs-x-series.html" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
