@@ -50,6 +50,7 @@
     <Content Include="_includes\head.html" />
     <Content Include="_includes\header.html" />
     <Content Include="_layouts\collection.html" />
+    <Content Include="_layouts\default-non-fluid.html" />
     <Content Include="_layouts\default.html" />
     <Content Include="_layouts\doc-section.html" />
     <Content Include="_layouts\ecwid-category.html" />
