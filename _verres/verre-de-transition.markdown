@@ -2,6 +2,7 @@
 title: Verre de transition
 date: 2017-04-19 19:32:00 +02:00
 image: "/uploads/verres-transition.jpg"
+layout: page
 ---
 
 La nouvelle technologie des verres de transition vous permet de porter des lunettes qui s'adapte à la puissance de la lumière de votre environnement.

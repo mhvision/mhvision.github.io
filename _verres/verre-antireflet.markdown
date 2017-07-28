@@ -2,6 +2,7 @@
 title: Verre antireflet
 date: 2017-04-19 19:45:00 +02:00
 image: "/uploads/verre-antireflet.jpg"
+layout: page
 ---
 
 ![verre-antireflet]({{ page.image }})

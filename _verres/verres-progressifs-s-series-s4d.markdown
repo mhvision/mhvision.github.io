@@ -1,6 +1,7 @@
 ---
 title: Verres progressifs S SERIES S4D
 date: 2017-04-22 10:09:00 +02:00
+layout: page
 ---
 
 VARILUX S SERIES
